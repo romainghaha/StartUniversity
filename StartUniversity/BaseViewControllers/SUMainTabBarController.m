@@ -17,6 +17,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    [self.tabBar setHidden:YES];
+    
     [self addChildViewControllerWithClassName:@"SUMessageViewController" andImageName:@"" andTitle:@"消息"];
     [self addChildViewControllerWithClassName:@"SUCircleFriendsViewController" andImageName:@"" andTitle:@"朋友圈"];
     [self addChildViewControllerWithClassName:@"SUPersonalCenterViewController" andImageName:@"" andTitle:@"我的"];
