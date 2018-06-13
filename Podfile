@@ -5,7 +5,7 @@ target 'StartUniversity' do
     
     pod 'MBProgressHUD'
     pod 'AFNetworking'
-    pod 'YYModel'
+    pod 'YYKit'
     pod 'JSONModel'
     pod 'SDWebImage'
     pod 'MJRefresh'

@@ -62,6 +62,8 @@
 		4F121AF520D0F00C009FD25F /* SUCircleFriendsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SUCircleFriendsViewController.m; sourceTree = "<group>"; };
 		4F121AF720D0FBDE009FD25F /* SUBasicViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SUBasicViewController.h; sourceTree = "<group>"; };
 		4F121AF820D0FBDE009FD25F /* SUBasicViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SUBasicViewController.m; sourceTree = "<group>"; };
+		4F121AFD20D11739009FD25F /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		4F121AFF20D118B0009FD25F /* UtilsMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UtilsMacro.h; sourceTree = "<group>"; };
 		5BAD8B9F59CB9DE5372C7D49 /* libPods-StartUniversityTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-StartUniversityTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E3DB881D2646B38B29A1EE7 /* Pods-StartUniversity.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StartUniversity.debug.xcconfig"; path = "Pods/Target Support Files/Pods-StartUniversity/Pods-StartUniversity.debug.xcconfig"; sourceTree = "<group>"; };
 		633DFA0BF2D4E005EBFC3C34 /* Pods-StartUniversity.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StartUniversity.release.xcconfig"; path = "Pods/Target Support Files/Pods-StartUniversity/Pods-StartUniversity.release.xcconfig"; sourceTree = "<group>"; };
@@ -130,6 +132,7 @@
 		4F121AB320D0EC23009FD25F /* StartUniversity */ = {
 			isa = PBXGroup;
 			children = (
+				4F121AFE20D11874009FD25F /* GlobalUnique */,
 				4F121AEC20D0EF57009FD25F /* CircleFriends */,
 				4F121AEB20D0EF43009FD25F /* Message */,
 				4F121AEA20D0EEF8009FD25F /* UserCenter */,
@@ -198,6 +201,15 @@
 				4F121AF520D0F00C009FD25F /* SUCircleFriendsViewController.m */,
 			);
 			path = CircleFriends;
+			sourceTree = "<group>";
+		};
+		4F121AFE20D11874009FD25F /* GlobalUnique */ = {
+			isa = PBXGroup;
+			children = (
+				4F121AFD20D11739009FD25F /* PrefixHeader.pch */,
+				4F121AFF20D118B0009FD25F /* UtilsMacro.h */,
+			);
+			path = GlobalUnique;
 			sourceTree = "<group>";
 		};
 		74B5634572FADF80E7C328A0 /* Pods */ = {
