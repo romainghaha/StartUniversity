@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  SUPersonalCenterViewController.h
 //  StartUniversity
 //
 //  Created by 苏强 on 2018/6/13.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface SUPersonalCenterViewController : UIViewController
 
 @end
-
