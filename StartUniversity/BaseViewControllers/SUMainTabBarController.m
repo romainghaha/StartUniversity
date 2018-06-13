@@ -7,7 +7,6 @@
 //
 
 #import "SUMainTabBarController.h"
-#import <Masonry.h>
 
 @interface SUMainTabBarController ()
 @property (nonatomic, strong)UIButton *floatingButton;

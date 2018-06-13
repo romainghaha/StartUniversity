@@ -139,6 +139,7 @@
 				4F121AE620D0EE2E009FD25F /* BaseViewControllers */,
 				4F121AB420D0EC23009FD25F /* AppDelegate.h */,
 				4F121AB520D0EC23009FD25F /* AppDelegate.m */,
+				4F121AFD20D11739009FD25F /* PrefixHeader.pch */,
 				4F121ABD20D0EC24009FD25F /* Assets.xcassets */,
 				4F121ABF20D0EC24009FD25F /* LaunchScreen.storyboard */,
 				4F121AC220D0EC24009FD25F /* Info.plist */,
@@ -206,7 +207,6 @@
 		4F121AFE20D11874009FD25F /* GlobalUnique */ = {
 			isa = PBXGroup;
 			children = (
-				4F121AFD20D11739009FD25F /* PrefixHeader.pch */,
 				4F121AFF20D118B0009FD25F /* UtilsMacro.h */,
 			);
 			path = GlobalUnique;
@@ -562,6 +562,8 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 32JYK7XX3V;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/StartUniversity/PrefixHeader.pch";
 				INFOPLIST_FILE = StartUniversity/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -582,6 +584,8 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 32JYK7XX3V;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/StartUniversity/PrefixHeader.pch";
 				INFOPLIST_FILE = StartUniversity/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (

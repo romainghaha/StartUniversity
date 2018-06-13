@@ -10,6 +10,8 @@
 #define PrefixHeader_pch
 
 #import <Masonry.h>
+#import <MBProgressHUD.h>
+
 #import "UtilsMacro.h"
 
 #endif /* PrefixHeader_pch */
