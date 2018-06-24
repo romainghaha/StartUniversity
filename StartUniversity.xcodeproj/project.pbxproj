@@ -19,6 +19,8 @@
 		4F121AF320D0EFE6009FD25F /* SUMessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F121AF220D0EFE6009FD25F /* SUMessageViewController.m */; };
 		4F121AF620D0F00C009FD25F /* SUCircleFriendsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F121AF520D0F00C009FD25F /* SUCircleFriendsViewController.m */; };
 		4F121AF920D0FBDE009FD25F /* SUBasicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F121AF820D0FBDE009FD25F /* SUBasicViewController.m */; };
+		4F5CC83A20E0043B00F48F49 /* SUPersonalCenterCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F5CC83820E0043B00F48F49 /* SUPersonalCenterCell.m */; };
+		4F5CC83B20E0043B00F48F49 /* SUPersonalCenterCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4F5CC83920E0043B00F48F49 /* SUPersonalCenterCell.xib */; };
 		4FE0161720DFE7FD00F7E3DE /* SULoginViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FE0161620DFE7FD00F7E3DE /* SULoginViewController.storyboard */; };
 		4FE0161920DFE80500F7E3DE /* SUUserCenterHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4FE0161820DFE80500F7E3DE /* SUUserCenterHeaderView.xib */; };
 		4FE0162220DFED5000F7E3DE /* SUPersonalCenterTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FE0162120DFED5000F7E3DE /* SUPersonalCenterTableView.m */; };
@@ -68,6 +70,9 @@
 		4F121AF820D0FBDE009FD25F /* SUBasicViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SUBasicViewController.m; sourceTree = "<group>"; };
 		4F121AFD20D11739009FD25F /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		4F121AFF20D118B0009FD25F /* UtilsMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UtilsMacro.h; sourceTree = "<group>"; };
+		4F5CC83720E0043B00F48F49 /* SUPersonalCenterCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SUPersonalCenterCell.h; sourceTree = "<group>"; };
+		4F5CC83820E0043B00F48F49 /* SUPersonalCenterCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SUPersonalCenterCell.m; sourceTree = "<group>"; };
+		4F5CC83920E0043B00F48F49 /* SUPersonalCenterCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SUPersonalCenterCell.xib; sourceTree = "<group>"; };
 		4FE0161620DFE7FD00F7E3DE /* SULoginViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = SULoginViewController.storyboard; sourceTree = "<group>"; };
 		4FE0161820DFE80500F7E3DE /* SUUserCenterHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SUUserCenterHeaderView.xib; sourceTree = "<group>"; };
 		4FE0162020DFED5000F7E3DE /* SUPersonalCenterTableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SUPersonalCenterTableView.h; sourceTree = "<group>"; };
@@ -232,6 +237,9 @@
 				4FE0162620DFF10700F7E3DE /* SUUserCenterHeaderView.m */,
 				4FE0162020DFED5000F7E3DE /* SUPersonalCenterTableView.h */,
 				4FE0162120DFED5000F7E3DE /* SUPersonalCenterTableView.m */,
+				4F5CC83720E0043B00F48F49 /* SUPersonalCenterCell.h */,
+				4F5CC83820E0043B00F48F49 /* SUPersonalCenterCell.m */,
+				4F5CC83920E0043B00F48F49 /* SUPersonalCenterCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -362,6 +370,7 @@
 				4F121ABE20D0EC24009FD25F /* Assets.xcassets in Resources */,
 				4FE0161720DFE7FD00F7E3DE /* SULoginViewController.storyboard in Resources */,
 				4FE0161920DFE80500F7E3DE /* SUUserCenterHeaderView.xib in Resources */,
+				4F5CC83B20E0043B00F48F49 /* SUPersonalCenterCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -425,6 +434,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4F5CC83A20E0043B00F48F49 /* SUPersonalCenterCell.m in Sources */,
 				4F121AC420D0EC24009FD25F /* main.m in Sources */,
 				4FE0162220DFED5000F7E3DE /* SUPersonalCenterTableView.m in Sources */,
 				4F121AF920D0FBDE009FD25F /* SUBasicViewController.m in Sources */,
