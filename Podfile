@@ -2,19 +2,13 @@
 # platform :ios, '9.0'
 
 target 'StartUniversity' do
-  # Uncomment the next line if you're using Swift or would like to use dynamic frameworks
-  # use_frameworks!
-
-  # Pods for StartUniversity
-
-  target 'StartUniversityTests' do
-    inherit! :search_paths
-    # Pods for testing
-  end
-
-  target 'StartUniversityUITests' do
-    inherit! :search_paths
-    # Pods for testing
-  end
+    
+    pod 'MBProgressHUD'
+    pod 'AFNetworking'
+    pod 'YYKit'
+    pod 'JSONModel'
+    pod 'SDWebImage'
+    pod 'MJRefresh'
+    pod 'Masonry'
 
 end

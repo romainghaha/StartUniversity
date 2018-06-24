@@ -6,8 +6,8 @@
 //  Copyright © 2018年 苏强. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "SUBasicViewController.h"
 
-@interface SUCircleFriendsViewController : UIViewController
+@interface SUCircleFriendsViewController : SUBasicViewController
 
 @end
