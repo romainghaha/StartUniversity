@@ -7,6 +7,7 @@
 //
 
 #import "SUMainTabBarController.h"
+#import "SUPersonalCenterViewController.h"
 
 @interface SUMainTabBarController ()
 @property (nonatomic, strong)UIButton *floatingButton;
@@ -24,6 +25,12 @@
     [self addChildViewControllerWithClassName:@"SUPersonalCenterViewController" andImageName:@"" andTitle:@"我的"];
     [self addFloatingButton];
 }
+
+//- (void)addChildViewControllerFromeStroyboard {
+//    UIStoryboard *userCenterStory = [UIStoryboard storyboardWithName:@"SUPersonalCenterViewController" bundle:nil];
+//    SUPersonalCenterViewController *userCenterVC = [userCenterStory instantiateViewControllerWithIdentifier:@""];
+//
+//}
 
 - (void)viewWillAppear:(BOOL)animated {
     [super viewWillAppear:animated];

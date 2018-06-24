@@ -7,18 +7,23 @@
 //
 
 #import "SUPersonalCenterViewController.h"
+#import "SUPersonalCenterTableView.h"
 
 @interface SUPersonalCenterViewController ()
+
+@property (nonatomic, strong) SUPersonalCenterTableView *personalCenterTableView;
 
 @end
 
 @implementation SUPersonalCenterViewController
-
+- (void)awakeFromNib {
+    [super awakeFromNib];
+}
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    self.view.backgroundColor = [UIColor lightGrayColor];
     [self.navigationController setNavigationBarHidden:YES];
+    [self.view addSubview:self.personalCenterTableView];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -26,14 +31,16 @@
     // Dispose of any resources that can be recreated.
 }
 
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+- (UIStatusBarStyle)preferredStatusBarStyle {
+    return UIStatusBarStyleLightContent;
 }
-*/
+
+- (SUPersonalCenterTableView *)personalCenterTableView {
+    if (!_personalCenterTableView) {
+        _personalCenterTableView = [[SUPersonalCenterTableView alloc] initWithFrame:self.view.bounds];
+    }
+    return _personalCenterTableView;
+}
+
 
 @end
